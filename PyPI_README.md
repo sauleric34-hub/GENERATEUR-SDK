@@ -1,37 +1,32 @@
-<<<<<<< HEAD
-# GENERATEUR-SDK
-Mets le YAML/JSON de ton projet API-REST et ce projet te generes la SDK + BACKEND + FRONTEND
-=======
-# MonprojetSdk Python SDK 1.0.0
+# MonprojetSdk Python SDK 1.0.0<a id="monprojetsdk-python-sdk-100"></a>
 
 Welcome to the MonprojetSdk SDK documentation. This guide will help you get started with integrating and using the MonprojetSdk SDK in your project.
 
-## Versions
+## Versions<a id="versions"></a>
 
 - SDK version: `1.0.0`
 
-## About the API
+## About the API<a id="about-the-api"></a>
 
 API centralisée pour la gestion des notes, la sécurité et la détection de billets.
 
-## Table of Contents
+## Table of Contents<a id="table-of-contents"></a>
 
 - [Setup & Configuration](#setup--configuration)
   - [Supported Language Versions](#supported-language-versions)
   - [Installation](#installation)
 - [Setting a Custom Timeout](#setting-a-custom-timeout)
 - [Sample Usage](#sample-usage)
-- [Async Usage](#async-usage)
 - [Services](#services)
 - [Models](#models)
 
-# Setup & Configuration
+# Setup & Configuration<a id="setup--configuration"></a>
 
-## Supported Language Versions
+## Supported Language Versions<a id="supported-language-versions"></a>
 
 This SDK is compatible with the following versions: `Python >= 3.7`
 
-## Installation
+## Installation<a id="installation"></a>
 
 To get started with the SDK, we recommend installing using `pip`:
 
@@ -45,7 +40,7 @@ If you are using Python 3, you can use `pip3` instead:
 pip3 install monprojet_sdk
 ```
 
-## Setting a Custom Timeout
+## Setting a Custom Timeout<a id="setting-a-custom-timeout"></a>
 
 You can set a custom timeout for the SDK's HTTP requests as follows:
 
@@ -55,7 +50,7 @@ from monprojet_sdk import MonprojetSdk
 sdk = MonprojetSdk(timeout=10000)
 ```
 
-# Sample Usage
+# Sample Usage<a id="sample-usage"></a>
 
 Below is a comprehensive example demonstrating how to authenticate and call a simple endpoint:
 
@@ -72,7 +67,7 @@ print(result)
 
 ```
 
-# Async Usage
+# Async Usage<a id="async-usage"></a>
 
 The SDK includes an Async Client for making asynchronous API requests. This is useful for applications that need non-blocking operations, like web servers or apps with a graphical user interface.
 
@@ -92,31 +87,30 @@ async def main():
 asyncio.run(main())
 ```
 
-## Services
+## Services<a id="services"></a>
 
 The SDK provides various services to interact with the API.
 
-<details>
-<summary>Below is a list of all available services with links to their detailed documentation:</summary>
+<details> 
+<summary>Below is a list of all available services:</summary>
 
-| Name                                                           |
-| :------------------------------------------------------------- |
-| [EtudiantsService](documentation/services/EtudiantsService.md) |
-| [NotesService](documentation/services/NotesService.md)         |
+| Name      |
+| :-------- |
+| etudiants |
+| notes     |
 
 </details>
 
-## Models
+## Models<a id="models"></a>
 
 The SDK includes several models that represent the data structures used in API requests and responses. These models help in organizing and managing the data efficiently.
 
-<details>
-<summary>Below is a list of all available models with links to their detailed documentation:</summary>
+<details> 
+<summary>Below is a list of all available models:</summary>
 
-| Name                                         | Description |
-| :------------------------------------------- | :---------- |
-| [Etudiant](documentation/models/Etudiant.md) |             |
-| [Note](documentation/models/Note.md)         |             |
+| Name     | Description |
+| :------- | :---------- |
+| Etudiant |             |
+| Note     |             |
 
 </details>
->>>>>>> 19c50ae (Version Initiale - Générateur SDK Full-Stack (Backend ACID + GUI Premium))

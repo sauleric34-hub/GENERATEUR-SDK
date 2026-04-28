@@ -1,0 +1,271 @@
+{
+  "liblabVersion": "1.1.2",
+  "date": "2026-04-28T06:53:07.283Z",
+  "config": {
+    "languages": [
+      "python"
+    ],
+    "deliveryMethods": [
+      "zip"
+    ],
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "typescript": {
+        "bundle": true,
+        "exportClassDefault": false,
+        "httpClient": "fetch",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "generateEnumAs": "union"
+      },
+      "go": {
+        "goModuleName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "java": {
+        "groupId": "",
+        "artifactId": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "php": {
+        "composerVendorName": "",
+        "composerPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "csharp": {
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "renameIllegalModelProperties": true,
+        "useOptionalWrapper": true,
+        "validateResponses": false
+      },
+      "cli": {
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "kotlin": {
+        "groupId": "",
+        "artifactId": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "ruby": {
+        "gemName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "rust": {
+        "packageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      }
+    },
+    "includeWatermark": false,
+    "responseHeaders": false,
+    "sdkName": "monprojet-sdk",
+    "sdkVersion": "1.0.0",
+    "customCode": {
+      "trackChanges": true
+    },
+    "alwaysInitializeOptionals": false,
+    "pypiPackageName": "",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "liblabVersion": "2",
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "usesFormData": false,
+    "authentication": {},
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "inferServiceNames": false,
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.13.2"
+      },
+      "languages": [
+        "typescript"
+      ]
+    },
+    "auth": [],
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpMethodsToRetry": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+        "PATCH",
+        "HEAD",
+        "OPTIONS"
+      ]
+    },
+    "multiTenant": false,
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "devContainer": false,
+    "ai": false,
+    "includeOptionalSnippetParameters": true,
+    "specType": "openapi",
+    "deprecatedOperations": {
+      "include": true
+    },
+    "multipleResponses": {
+      "enabled": false
+    }
+  },
+  "files": [
+    "src/monprojet_sdk/models/utils/base_model.py",
+    "src/monprojet_sdk/models/utils/base_error.py",
+    "src/monprojet_sdk/models/utils/json_map.py",
+    "src/monprojet_sdk/models/__init__.py",
+    "src/monprojet_sdk/services/__init__.py",
+    "src/monprojet_sdk/services/utils/__init__.py",
+    "src/monprojet_sdk/__init__.py",
+    "src/monprojet_sdk/net/__init__.py",
+    "src/monprojet_sdk/net/headers/__init__.py",
+    "src/monprojet_sdk/net/transport/__init__.py",
+    "src/monprojet_sdk/net/environment/__init__.py",
+    "src/monprojet_sdk/net/request_chain/__init__.py",
+    "src/monprojet_sdk/net/request_chain/handlers/__init__.py",
+    "src/monprojet_sdk/models/utils/__init__.py",
+    "src/monprojet_sdk/services/async_/__init__.py",
+    "src/monprojet_sdk/services/async_/utils/__init__.py",
+    "src/monprojet_sdk/net/transport/request.py",
+    "src/monprojet_sdk/net/transport/response.py",
+    "src/monprojet_sdk/net/transport/api_error.py",
+    "src/monprojet_sdk/net/transport/request_error.py",
+    "src/monprojet_sdk/sdk.py",
+    "src/monprojet_sdk/net/transport/serializer.py",
+    "src/monprojet_sdk/services/utils/validator.py",
+    "src/monprojet_sdk/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/monprojet_sdk/models/utils/cast_models.py",
+    "src/monprojet_sdk/net/transport/utils.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/monprojet_sdk/net/headers/base_header.py",
+    "src/monprojet_sdk/net/environment/environment.py",
+    "src/monprojet_sdk/net/request_chain/request_chain.py",
+    "src/monprojet_sdk/net/request_chain/handlers/base_handler.py",
+    "src/monprojet_sdk/net/request_chain/handlers/http_handler.py",
+    "src/monprojet_sdk/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    "src/monprojet_sdk/services/utils/default_headers.py",
+    "documentation/snippets/snippets.json",
+    "documentation/models/Etudiant.md",
+    "documentation/models/Note.md",
+    "src/monprojet_sdk/models/utils/one_of_base_model.py",
+    "src/monprojet_sdk/services/async_/utils/to_async.py",
+    "src/monprojet_sdk/services/async_/etudiants.py",
+    "src/monprojet_sdk/services/async_/notes.py",
+    "src/monprojet_sdk/sdk_async.py",
+    "src/monprojet_sdk/models/utils/sentinel.py",
+    ".env.example",
+    "examples/.env.example",
+    "src/monprojet_sdk/net/sdk_config.py",
+    "src/monprojet_sdk/models/etudiant.py",
+    "src/monprojet_sdk/models/note.py",
+    "src/monprojet_sdk/services/etudiants.py",
+    "src/monprojet_sdk/services/notes.py",
+    "documentation/services/EtudiantsService.md",
+    "documentation/services/NotesService.md",
+    "README.md",
+    "PyPI_README.md"
+  ],
+  "fileHashes": {
+    ".env.example": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    ".gitignore": "6bbf1931dedfa978c086f704675227391491eeb602840bea6d83e20394768b77",
+    "PyPI_README.md": "e4e36f34765cce62ae3b172b87dfba1c00b2354dbc3a2b4fff9af02ce9ec83f7",
+    "README.md": "d66e6e3cadfb7298131f938c733411a233868828ea2e7ceb1569bd3cb2836708",
+    "documentation/models/Etudiant.md": "25f0762c50437619b999e1ac07dffc5c6ad0404144b230fa9addcc5150ba32e2",
+    "documentation/models/Note.md": "daf5a548dacd4efa2c4e846133f8bc1e8fdcafdb964a9cde9dae3af9a6b06a18",
+    "documentation/services/EtudiantsService.md": "b92cca590d8c18ee62f3777cd7f0a5ff8308b40d40929c7950a5d7d6ffde7eb2",
+    "documentation/services/NotesService.md": "36621fe0999c2452e2e84c17e533610ff558398b4450ede86da1f086db32c59d",
+    "documentation/snippets/snippets.json": "5f4cf4c3f844e4d3a6bcc6b04219990580fa66232ca04d6928079e92ae6f3386",
+    "examples/.env.example": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "examples/install.cmd": "2d35e69d6815a977646d095fb50d8b6dc8faa1f48d6015a4e5feb11b0a35e8db",
+    "examples/install.sh": "75a72394a3c093bc115d7e3c9770c4e8df8676099a5ff69d56d0e64aa6b0575a",
+    "examples/sample.py": "5e4706051759311f1678bfa6a1b4d6eeef9f45cc54eec4682b29231e5ff40e42",
+    "install.cmd": "45dfaba5b3ea658964c33ebd3d0bac3148245cfe5a9c045de1db31d8864fb0ae",
+    "install.sh": "52df30a89bc7dafdf567e05be8d61aa48a91127e86702557cfe48fdb33d0d5ad",
+    "prettier.config.js": "2fe33fda52344779fcf235afa8152cfd356880dc3161da09403dc26231bc72d9",
+    "pyproject.toml": "1a03cd3a2a617f91b50ec256477f3834e956c68545a597e47172e95a02e566b4",
+    "src/monprojet_sdk/__init__.py": "911d1ed13889589354456136ea5cafbae344f75f416b82f05ff0d0f5cd1a1785",
+    "src/monprojet_sdk/models/__init__.py": "94233ec8f93bde66f94d67f981b2c05b906622f17ae2733141f677d40be3db7e",
+    "src/monprojet_sdk/models/etudiant.py": "d978d84f44d533df9a95d0c582bf04e9d0bdc246af005710ea216db52d7d82e3",
+    "src/monprojet_sdk/models/note.py": "552969d79f1b0ab07c0d6b372b6f6d77ba3a3a07246ca607330d0aec1fb2ebc1",
+    "src/monprojet_sdk/models/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/models/utils/base_error.py": "dd6e081bb478edba5c93940540ff33ce9880b671b45b90f0f1fc2cc81cce1453",
+    "src/monprojet_sdk/models/utils/base_model.py": "9401a383373d07378da754091de732cd2722dc202ea13bc792a7b802b141db86",
+    "src/monprojet_sdk/models/utils/cast_models.py": "d3b7120279cf16c24b7574a23b610e64e3f30cd5ded0e979852254b6f76cacf7",
+    "src/monprojet_sdk/models/utils/json_map.py": "14f2b84ad1a0f95098cfc8cbd8dad350995eb4995547d67096fad10b6d08f8c7",
+    "src/monprojet_sdk/models/utils/one_of_base_model.py": "bea11eaa99fd499ed0dfbf1cf3f6d9a202685788c3b87b8846c8ed67b33c7178",
+    "src/monprojet_sdk/models/utils/sentinel.py": "e52b9ac51a9898f65230fb009b60a809e72f646c559ca78d615931b0c0dae466",
+    "src/monprojet_sdk/net/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/net/environment/__init__.py": "0c5ed4bcd5c7423b21f2029436abc728a0f5d223e7467344784bd47afd1cdec0",
+    "src/monprojet_sdk/net/environment/environment.py": "11824132d6fc1dfd95f4e6bc875c5eec6e7c35e4b9f339e685f52c22e5da6206",
+    "src/monprojet_sdk/net/headers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/net/headers/base_header.py": "0c40412e64e8c34317a13663ddee36137d31b0dbbea38c5eb07ef146f70fe466",
+    "src/monprojet_sdk/net/request_chain/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/net/request_chain/handlers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/net/request_chain/handlers/base_handler.py": "5ff9cdc332de0131ce8e4b5052530b28c863eb9f381ece0f145da3b2cbf20fa5",
+    "src/monprojet_sdk/net/request_chain/handlers/http_handler.py": "a736865ee8e8585b67595af46e791fb8d610cac12522b9f61ed73c38425d5e13",
+    "src/monprojet_sdk/net/request_chain/handlers/retry_handler.py": "ec6703c6299aaacca84e009a38aed8b8f498b004922154ca3c17fcdbd0208378",
+    "src/monprojet_sdk/net/request_chain/request_chain.py": "b21ebb0d8f8018887332570ac4610f16e7268dca0b2e73408a724901165bace4",
+    "src/monprojet_sdk/net/sdk_config.py": "bfc45c4ec69c58d8a29d0520d94d2b9f973f9245936477b12031121e591047b7",
+    "src/monprojet_sdk/net/transport/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/net/transport/api_error.py": "8905d1004cce0846eaa0a30c5aaf83e45071ac4d604274d42d07f35b88cfc23f",
+    "src/monprojet_sdk/net/transport/request.py": "d04b817c76eee3b345c2c97db44223c1475ad55599faaa3cebb2a8b39b026eba",
+    "src/monprojet_sdk/net/transport/request_error.py": "962c1e627288694eb31644f85474f32a540367c382b34119e74adfc52d7fdf06",
+    "src/monprojet_sdk/net/transport/response.py": "27b0834b80f907aab8a7d2c91e4e6c6646fdad69ce67eece63c8af8cc8bcc4a1",
+    "src/monprojet_sdk/net/transport/serializer.py": "98b3b001177430b77bb9c89ff9231cc093dc6f490d01bc4f3dd8ff5a840799b9",
+    "src/monprojet_sdk/net/transport/utils.py": "734ea9f9838b85ca9a0b7d8d82c65b56f73324fb02bd9693a60f1b54e4f085da",
+    "src/monprojet_sdk/sdk.py": "349dba3f57ec73f430cbf4f5b2c17053cfa3918ad660fa0ebe26da5c2c91fec8",
+    "src/monprojet_sdk/sdk_async.py": "e79901b0322da6d53a38c027c5389323ed2c0c51a560a97e46b3cc987e47cac6",
+    "src/monprojet_sdk/services/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/services/async_/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/services/async_/etudiants.py": "cf7a9cf902749ef563d47ce3269218a7d3dd595af00f77834e32c61ae80cd38d",
+    "src/monprojet_sdk/services/async_/notes.py": "bb90694ff9589357e545662c0525b49e968a797e1a80af55a8f48529bc4454f2",
+    "src/monprojet_sdk/services/async_/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/services/async_/utils/to_async.py": "2cb85fd85bcfa814b70ca92e47479d3e486e2e48ec266fc74694854f3965c582",
+    "src/monprojet_sdk/services/etudiants.py": "adf9e48c83049d1baec10fa0c39af3db54399a64ab549f4484ab244ba3e5ff7a",
+    "src/monprojet_sdk/services/notes.py": "fc8faa8f6755f126e522ba2664377264c6ff2a4fce83537325b95e962cf94793",
+    "src/monprojet_sdk/services/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/monprojet_sdk/services/utils/base_service.py": "26897da7aa9bfae2e24adf93ef35bb6c46688241624229ba8577b8039eb05e72",
+    "src/monprojet_sdk/services/utils/default_headers.py": "8b2763f889d8da9febef2c1f8d846177aff0faf03e8978e91c0b18d8811bdf6b",
+    "src/monprojet_sdk/services/utils/validator.py": "25e2c20d761d6a8528b4df98545c596e9c309d448e502836f29b0a74e47727ff"
+  }
+}

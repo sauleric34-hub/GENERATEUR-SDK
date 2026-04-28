@@ -1,0 +1,18 @@
+{
+  "endpoints": {
+    "/etudiants": {
+      "get": "from monprojet_sdk import MonprojetSdk\n\nsdk = MonprojetSdk(\n    timeout=10000\n)\n\nresult = sdk.etudiants.get_etudiants()\n\nprint(result)\n",
+      "post": "from monprojet_sdk import MonprojetSdk\nfrom monprojet_sdk.models import Etudiant\n\nsdk = MonprojetSdk(\n    timeout=10000\n)\n\nrequest_body = Etudiant(\n    id_=8,\n    nom=\"nom\",\n    filiere=\"filiere\"\n)\n\nresult = sdk.etudiants.create_etudiants(request_body=request_body)\n\nprint(result)\n"
+    },
+    "/notes": {
+      "get": "from monprojet_sdk import MonprojetSdk\n\nsdk = MonprojetSdk(\n    timeout=10000\n)\n\nresult = sdk.notes.get_notes()\n\nprint(result)\n",
+      "post": "from monprojet_sdk import MonprojetSdk\nfrom monprojet_sdk.models import Note\n\nsdk = MonprojetSdk(\n    timeout=10000\n)\n\nrequest_body = Note(\n    id_=2,\n    valeur=8.44,\n    matiere=\"matiere\",\n    etudiant_id=8\n)\n\nresult = sdk.notes.create_notes(request_body=request_body)\n\nprint(result)\n"
+    }
+  },
+  "methodResponses": {
+    "/etudiants": {
+      "get": "print(result)"
+    }
+  },
+  "example": "from monprojet_sdk import MonprojetSdk\n\nsdk = MonprojetSdk(\n    timeout=10000\n)\n\nresult = sdk.etudiants.get_etudiants()\n\nprint(result)\n"
+}

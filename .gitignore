@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+generated_backend/
+generated_gui.py
+generated_api.db
+uploads/
+certs/
+*.h5
+*.pth
+# Do not ignore spec files if they are in this dir, but usually they are chosen from elsewhere
